@@ -22,6 +22,9 @@ var isStart = false;
 var imgNum = 0;
 
 function moveBlock(i) {
+    if (isStart == false){/* 未开始 */
+        return;
+    }
     if (i == positions[_void]) {/* 空格 */
         return;
     }
