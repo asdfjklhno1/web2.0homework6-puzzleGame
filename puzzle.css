@@ -34,7 +34,8 @@ h1{
     background-repeat: no-repeat;
 
     font-size: 1rem;
-    color: rgb(29, 29, 29);
+    color: white;
+    text-shadow: 1px 1px 5px #000000 ;
 }
 .row1 .block{
     margin-top: 5px;
